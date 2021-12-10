@@ -12,8 +12,9 @@ public class EnemyFormation : MonoBehaviour
     private float timeTillFire;
     private float fireDelay = 3;
     private EnemyScript [] enemies;
+    public GameObject enemyBullet;
 
-    public AudioSource audioSource;
+    public AudioSource aSource;
     public AudioClip deathClip;
     // Start is called before the first frame update
     void Start()
@@ -25,7 +26,7 @@ public class EnemyFormation : MonoBehaviour
 
     public void PlayEnemyDeathAudio()
     {
-        audioSource.PlayOneShot(deathClip);
+        aSource.PlayOneShot(deathClip);
     }
 
     // Update is called once per frame
@@ -47,22 +48,22 @@ public class EnemyFormation : MonoBehaviour
         }
         else
         {
-        //fire
-        timeTillFire = fireDelay;
+            EnemyShoot();
+            timeTillFire = fireDelay;
         }
     }
 
     
     public void EnemyShoot()
     {
-        int numberOfEnemies = GetComponentsInChildren<EnemyScript>().length;
+        int numberOfEnemies = GetComponentsInChildren<EnemyScript>().Length;
         
         if (numberOfEnemies <= 0) return;
 
         int index = Random.Range(0, numberOfEnemies);
         var enemyArray = GetComponentsInChildren<EnemyScript>();
 
-        Vector3 bullPos = GetComponentsInChildren<EnemyScript>()[Random.Range(0, max)];
+        Vector3 bullPos = enemyArray[index].transform.position;
         Instantiate(enemyBullet, Vector3.zero, Quaternion.identity);
     }
 

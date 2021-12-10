@@ -10,7 +10,7 @@ public class PlayerScript : MonoBehaviour
     
     public GameObject playerBullet;
 
-    public AudioSource audioSource;
+    public AudioSource aSource;
     public AudioClip shootClip;
 
     // Start is called before the first frame update
@@ -35,7 +35,7 @@ public class PlayerScript : MonoBehaviour
     public void Shoot()
     {
      Vector3 offset = new Vector3(0, 0.5f, 0);
-     audioSource.PlayOneShot(shootClip);
+     aSource.PlayOneShot(shootClip);
      GameObject bullet = Instantiate(playerBullet, transform.position + offset, Quaternion.identity);   
     }
 }

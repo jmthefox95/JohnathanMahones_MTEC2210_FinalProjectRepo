@@ -7,9 +7,9 @@ public class EnemyScript : MonoBehaviour
     public Transform enemy;
     public int scoreValue;
     private EnemyFormation formation;
-    private GameManager manager;
+    private GameManager gManager;
     public AudioClip deathClip;
-    public AudioSource audioSource;
+    public AudioSource aSource;
 
     // Start is called before the first frame update
     void Start()
@@ -25,7 +25,7 @@ public class EnemyScript : MonoBehaviour
 
     public void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.tag = "SideBoundary")
+        if (collision.gameObject.tag == "SideBoundary")
         {
             formation.movingSide = false;
             formation.SetDestinationAndMoveDown();
@@ -33,7 +33,7 @@ public class EnemyScript : MonoBehaviour
 
         if (collision.gameObject.tag == "Boundary" || collision.gameObject.tag == "Player")
         {
-            manager.RestartGame();
+            gManager.RestartGame();
         }
     }
 }
