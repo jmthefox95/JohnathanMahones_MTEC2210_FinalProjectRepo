@@ -12,9 +12,10 @@ GameObject:
   - component: {fileID: 353091503372887004}
   - component: {fileID: 353091503372887005}
   - component: {fileID: 44372459417759615}
-  m_Layer: 0
+  - component: {fileID: -4681560684090150545}
+  m_Layer: 7
   m_Name: enemyBullet
-  m_TagString: Untagged
+  m_TagString: EnemyBullet
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -96,7 +97,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 254fc2711f135ac41a1a233f9d9faa5b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 1
+  isPlayerBullet: 0
+  speed: 4
+  aSource: {fileID: 0}
+  playerDiesSound: {fileID: 0}
+  PlayLifeLost: {fileID: 8300000, guid: 296dce0e1b2b98146b3eee3666066eed, type: 3}
 --- !u!50 &44372459417759615
 Rigidbody2D:
   serializedVersion: 4
@@ -118,3 +123,29 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!61 &-4681560684090150545
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 353091503372887006}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.12, y: 0.29}
+    newSize: {x: 0.12, y: 0.29}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.12, y: 0.29}
+  m_EdgeRadius: 0

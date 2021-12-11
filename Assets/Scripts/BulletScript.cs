@@ -10,11 +10,12 @@ public class BulletScript : MonoBehaviour
     private float mod;
     private EnemyFormation formation;
     public AudioSource aSource;
+    private AudioClip LifeLost;
 
     // Start is called before the first frame update
     void Start()
     {
-        gManager = GameObject.Find("gameManager").GetComponent<gameManager>();
+        gManager = GameObject.Find("gameManager").GetComponent<GameManager>();
         formation = GameObject.Find("EnemyFormation").GetComponent<EnemyFormation>();
 
         if (isPlayerBullet)
@@ -25,8 +26,6 @@ public class BulletScript : MonoBehaviour
         {
             mod = -1;
         }
-
-        mod = isPlayerBullet = true?1 : -1;
     }
 
     // Update is called once per frame
@@ -44,10 +43,10 @@ public class BulletScript : MonoBehaviour
     {
         if (collision.gameObject.tag == "Enemy" && isPlayerBullet)
         {
-            var enemy = collision.GameObject.GetComponent<EnemyScript>();
+            var enemy = collision.gameObject.GetComponent<EnemyScript>();
             enemy.aSource.PlayOneShot(enemy.deathClip);
+            gManager.IncreaseScore(enemy.scoreValue);
             Destroy(collision.gameObject);
-            gManager.IncreaseScore(collision.gameObject.GetComponent<EnemyScript>().scoreValue);
         }
 
         if (collision.gameObject.tag == "Player")

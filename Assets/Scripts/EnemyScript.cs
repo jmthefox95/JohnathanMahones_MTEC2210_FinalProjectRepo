@@ -7,7 +7,7 @@ public class EnemyScript : MonoBehaviour
     public Transform enemy;
     public int scoreValue;
     private EnemyFormation formation;
-    private GameManager gManager;
+    public GameManager gManager;
     public AudioClip deathClip;
     public AudioSource aSource;
 

@@ -8,10 +8,9 @@ public class EnemyFormation : MonoBehaviour
     public bool movingDown;
     public bool movingSide;
     public Vector3 destination;
-    private float descendSpeed;
+    private float descendSpeed = 2;
     private float timeTillFire;
     private float fireDelay = 3;
-    private EnemyScript [] enemies;
     public GameObject enemyBullet;
 
     public AudioSource aSource;
@@ -21,7 +20,6 @@ public class EnemyFormation : MonoBehaviour
     {
         movingSide = true;
         timeTillFire = fireDelay;
-        enemies = GetComponentsInChildren<EnemyScript>().gameObject;
     }
 
     public void PlayEnemyDeathAudio()
@@ -57,14 +55,11 @@ public class EnemyFormation : MonoBehaviour
     public void EnemyShoot()
     {
         int numberOfEnemies = GetComponentsInChildren<EnemyScript>().Length;
-        
-        if (numberOfEnemies <= 0) return;
-
         int index = Random.Range(0, numberOfEnemies);
         var enemyArray = GetComponentsInChildren<EnemyScript>();
 
         Vector3 bullPos = enemyArray[index].transform.position;
-        Instantiate(enemyBullet, Vector3.zero, Quaternion.identity);
+        Instantiate(enemyBullet, bullPos, Quaternion.identity);
     }
 
     public void SetDestinationAndMoveDown ()
@@ -76,12 +71,13 @@ public class EnemyFormation : MonoBehaviour
 
     public void MoveDown()
     {
-        transform.position = Vector3.MoveTowards(transform.position, destination, Time.deltaTime * speed);
+        transform.position = Vector3.MoveTowards(transform.position, destination, Time.deltaTime * descendSpeed);
 
         if (transform.position == destination)
         {
+  
             movingDown = false;
-            speed * -1;
+            speed *= -1;
             movingSide = true;
         }
     }
@@ -89,6 +85,6 @@ public class EnemyFormation : MonoBehaviour
 
     public void MoveHorizontal()
     {
-        transform.Translate (speed * Time.deltaTime * 0 , 0);
+        transform.Translate (speed * Time.deltaTime , 0,0);
     }
 }

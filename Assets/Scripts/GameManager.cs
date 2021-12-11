@@ -6,7 +6,7 @@ using TMPro;
 
 public class GameManager : MonoBehaviour
 {
-    public int score;
+    private int score;
     public TextMeshPro scoreText;
     // Start is called before the first frame update
     void Start()
@@ -17,7 +17,7 @@ public class GameManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        scoreText.text = "Score: " + score.ToString();
+        scoreText.text = score.ToString("0000");
     }
 
     public void IncreaseScore(int value)

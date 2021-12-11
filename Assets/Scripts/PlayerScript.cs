@@ -5,13 +5,13 @@ using UnityEngine;
 public class PlayerScript : MonoBehaviour
 {
 
-    public float playerSpeed;
-    public float speed = 1f;
+    public float speed = 5;
     
     public GameObject playerBullet;
 
     public AudioSource aSource;
     public AudioClip shootClip;
+    public AudioClip playerDeathSound;
 
     // Start is called before the first frame update
     void Start()

@@ -7,8 +7,6 @@ TagManager:
   - Enemy
   - SideBoundary
   - Boundary
-  - EnemyBullet
-  - PlayerBullet
   layers:
   - Default
   - TransparentFX
@@ -16,10 +14,10 @@ TagManager:
   - 
   - Water
   - UI
-  - 
-  - 
-  - 
-  - 
+  - PlayerBullet
+  - EnemyBullet
+  - Player
+  - Enemy
   - 
   - 
   - 
