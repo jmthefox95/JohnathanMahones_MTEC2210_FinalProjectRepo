@@ -98,10 +98,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isPlayerBullet: 0
-  speed: 4
+  speed: 3
   aSource: {fileID: 0}
-  playerDiesSound: {fileID: 0}
-  PlayLifeLost: {fileID: 8300000, guid: 296dce0e1b2b98146b3eee3666066eed, type: 3}
 --- !u!50 &44372459417759615
 Rigidbody2D:
   serializedVersion: 4
@@ -114,10 +112,10 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 1
+  m_Mass: 0.0001
   m_LinearDrag: 0
   m_AngularDrag: 0.05
-  m_GravityScale: 1
+  m_GravityScale: 0
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1

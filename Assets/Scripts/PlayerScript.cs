@@ -8,6 +8,9 @@ public class PlayerScript : MonoBehaviour
     public float speed = 5;
     
     public GameObject playerBullet;
+    public GameObject GameManager;
+    
+    private Vector2 startPos;
 
     public AudioSource aSource;
     public AudioClip shootClip;
@@ -16,7 +19,7 @@ public class PlayerScript : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        startPos = transform.position;
     }
 
     // Update is called once per frame
@@ -31,6 +34,8 @@ public class PlayerScript : MonoBehaviour
             Shoot();
         }
     }
+    
+    
 
     public void Shoot()
     {
@@ -38,4 +43,5 @@ public class PlayerScript : MonoBehaviour
      aSource.PlayOneShot(shootClip);
      GameObject bullet = Instantiate(playerBullet, transform.position + offset, Quaternion.identity);   
     }
+
 }

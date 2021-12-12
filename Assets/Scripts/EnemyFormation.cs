@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class EnemyFormation : MonoBehaviour
 {
@@ -12,6 +13,10 @@ public class EnemyFormation : MonoBehaviour
     private float timeTillFire;
     private float fireDelay = 3;
     public GameObject enemyBullet;
+    public GameManager gManager;
+    
+    private EnemyFormation formation;
+
 
     public AudioSource aSource;
     public AudioClip deathClip;
@@ -20,6 +25,9 @@ public class EnemyFormation : MonoBehaviour
     {
         movingSide = true;
         timeTillFire = fireDelay;
+        
+        formation = GetComponentInParent<EnemyFormation>();
+        gManager = GameObject.Find("gameManager").GetComponent<GameManager>();
     }
 
     public void PlayEnemyDeathAudio()
@@ -87,4 +95,5 @@ public class EnemyFormation : MonoBehaviour
     {
         transform.Translate (speed * Time.deltaTime , 0,0);
     }
+
 }

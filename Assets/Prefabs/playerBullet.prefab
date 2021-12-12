@@ -98,10 +98,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isPlayerBullet: 1
-  speed: 2
+  speed: 4
   aSource: {fileID: 0}
-  playerDiesSound: {fileID: 0}
-  playerLifeLost: {fileID: 0}
 --- !u!50 &1387836768028068544
 Rigidbody2D:
   serializedVersion: 4

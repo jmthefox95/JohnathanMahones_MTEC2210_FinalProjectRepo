@@ -152,7 +152,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 36992039}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.57, y: -0.37991, z: 0.20283858}
+  m_LocalPosition: {x: -1.31, y: -0.37991, z: 0.20283858}
   m_LocalScale: {x: 0.49498376, y: 0.49498376, z: 0.49498376}
   m_Children: []
   m_Father: {fileID: 1463112894}
@@ -248,7 +248,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemy: {fileID: 0}
-  scoreValue: 0
+  scoreValue: 125
   gManager: {fileID: 514828720}
   deathClip: {fileID: 8300000, guid: 2a47e76af8274614bbf730eac699b9a6, type: 3}
   aSource: {fileID: 770914320}
@@ -273,140 +273,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!1 &149774902
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 149774905}
-  - component: {fileID: 149774904}
-  - component: {fileID: 149774903}
-  m_Layer: 5
-  m_Name: scoreText
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &149774903
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 149774902}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_text: New Text
-  m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_fontSharedMaterials: []
-  m_fontMaterial: {fileID: 0}
-  m_fontMaterials: []
-  m_fontColor32:
-    serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
-  m_enableVertexGradient: 0
-  m_colorMode: 3
-  m_fontColorGradient:
-    topLeft: {r: 1, g: 1, b: 1, a: 1}
-    topRight: {r: 1, g: 1, b: 1, a: 1}
-    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
-    bottomRight: {r: 1, g: 1, b: 1, a: 1}
-  m_fontColorGradientPreset: {fileID: 0}
-  m_spriteAsset: {fileID: 0}
-  m_tintAllSprites: 0
-  m_StyleSheet: {fileID: 0}
-  m_TextStyleHashCode: -1183493901
-  m_overrideHtmlColors: 0
-  m_faceColor:
-    serializedVersion: 2
-    rgba: 4294967295
-  m_fontSize: 36
-  m_fontSizeBase: 36
-  m_fontWeight: 400
-  m_enableAutoSizing: 0
-  m_fontSizeMin: 18
-  m_fontSizeMax: 72
-  m_fontStyle: 0
-  m_HorizontalAlignment: 1
-  m_VerticalAlignment: 256
-  m_textAlignment: 65535
-  m_characterSpacing: 0
-  m_wordSpacing: 0
-  m_lineSpacing: 0
-  m_lineSpacingMax: 0
-  m_paragraphSpacing: 0
-  m_charWidthMaxAdj: 0
-  m_enableWordWrapping: 1
-  m_wordWrappingRatios: 0.4
-  m_overflowMode: 0
-  m_linkedTextComponent: {fileID: 0}
-  parentLinkedComponent: {fileID: 0}
-  m_enableKerning: 1
-  m_enableExtraPadding: 0
-  checkPaddingRequired: 0
-  m_isRichText: 1
-  m_parseCtrlCharacters: 1
-  m_isOrthographic: 1
-  m_isCullingEnabled: 0
-  m_horizontalMapping: 0
-  m_verticalMapping: 0
-  m_uvLineOffset: 0
-  m_geometrySortingOrder: 0
-  m_IsTextObjectScaleStatic: 0
-  m_VertexBufferAutoSizeReduction: 0
-  m_useMaxVisibleDescender: 1
-  m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
-  m_isUsingLegacyAnimationComponent: 0
-  m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
-  m_baseMaterial: {fileID: 0}
-  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
---- !u!222 &149774904
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 149774902}
-  m_CullTransparentMesh: 1
---- !u!224 &149774905
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 149774902}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 7
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 100, y: 25}
-  m_SizeDelta: {x: 200, y: 50}
-  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &181859158
 GameObject:
   m_ObjectHideFlags: 0
@@ -420,7 +286,6 @@ GameObject:
   - component: {fileID: 181859162}
   - component: {fileID: 181859161}
   - component: {fileID: 181859164}
-  - component: {fileID: 181859163}
   m_Layer: 9
   m_Name: Enemy02
   m_TagString: Enemy
@@ -487,7 +352,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 181859158}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -5.35, y: -3.67, z: 0.20283858}
+  m_LocalPosition: {x: -3.26, y: -2.11, z: 0.20283858}
   m_LocalScale: {x: 0.50936, y: 0.50936, z: 0.50936}
   m_Children: []
   m_Father: {fileID: 1463112894}
@@ -540,23 +405,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.01, y: 1.01}
   m_EdgeRadius: 0
---- !u!114 &181859163
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 181859158}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 49dcc21445a251241a062696f7da946e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  enemy: {fileID: 0}
-  scoreValue: 0
-  gManager: {fileID: 0}
-  deathClip: {fileID: 0}
-  aSource: {fileID: 0}
 --- !u!114 &181859164
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -570,8 +418,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemy: {fileID: 0}
-  scoreValue: 0
-  gManager: {fileID: 0}
+  scoreValue: 50
+  gManager: {fileID: 514828720}
   deathClip: {fileID: 8300000, guid: 2a47e76af8274614bbf730eac699b9a6, type: 3}
   aSource: {fileID: 770914320}
 --- !u!1 &239279554
@@ -653,7 +501,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 239279554}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -3.786, y: -1.3806999, z: 0.20283858}
+  m_LocalPosition: {x: -2.58, y: -0.977, z: 0.20283858}
   m_LocalScale: {x: 0.47712, y: 0.47712, z: 0.47712}
   m_Children: []
   m_Father: {fileID: 1463112894}
@@ -719,8 +567,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemy: {fileID: 0}
-  scoreValue: 0
-  gManager: {fileID: 0}
+  scoreValue: 100
+  gManager: {fileID: 514828720}
   deathClip: {fileID: 8300000, guid: 2a47e76af8274614bbf730eac699b9a6, type: 3}
   aSource: {fileID: 770914320}
 --- !u!1 &331801738
@@ -912,7 +760,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 333935057}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -5.3519998, y: -4.9079986, z: 0.20283858}
+  m_LocalPosition: {x: -3.251, y: -2.782, z: 0.20283858}
   m_LocalScale: {x: 0.58343, y: 0.58343, z: 0.58343}
   m_Children: []
   m_Father: {fileID: 1463112894}
@@ -978,8 +826,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemy: {fileID: 0}
-  scoreValue: 0
-  gManager: {fileID: 0}
+  scoreValue: 25
+  gManager: {fileID: 514828720}
   deathClip: {fileID: 8300000, guid: 2a47e76af8274614bbf730eac699b9a6, type: 3}
   aSource: {fileID: 770914320}
 --- !u!1 &379373557
@@ -1061,7 +909,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 379373557}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -2.1599998, y: -3.67, z: 0.20283858}
+  m_LocalPosition: {x: -1.97, y: -2.1, z: 0.20283858}
   m_LocalScale: {x: 0.50936, y: 0.50936, z: 0.50936}
   m_Children: []
   m_Father: {fileID: 1463112894}
@@ -1127,8 +975,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemy: {fileID: 0}
-  scoreValue: 0
-  gManager: {fileID: 0}
+  scoreValue: 50
+  gManager: {fileID: 514828720}
   deathClip: {fileID: 8300000, guid: 2a47e76af8274614bbf730eac699b9a6, type: 3}
   aSource: {fileID: 770914320}
 --- !u!1 &427150783
@@ -1159,7 +1007,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 427150783}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -2.15, y: -0.37991, z: 0.20283858}
+  m_LocalPosition: {x: -1.96, y: -0.37991, z: 0.20283858}
   m_LocalScale: {x: 0.49498376, y: 0.49498376, z: 0.49498376}
   m_Children: []
   m_Father: {fileID: 1463112894}
@@ -1255,7 +1103,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemy: {fileID: 0}
-  scoreValue: 0
+  scoreValue: 125
   gManager: {fileID: 514828720}
   deathClip: {fileID: 8300000, guid: 2a47e76af8274614bbf730eac699b9a6, type: 3}
   aSource: {fileID: 770914320}
@@ -1359,7 +1207,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 433161619}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.58599997, y: -2.4689999, z: 0.20283858}
+  m_LocalPosition: {x: -1.31, y: -1.5, z: 0.20283858}
   m_LocalScale: {x: 0.5411952, y: 0.5411952, z: 0.5411952}
   m_Children: []
   m_Father: {fileID: 1463112894}
@@ -1378,8 +1226,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemy: {fileID: 0}
-  scoreValue: 0
-  gManager: {fileID: 0}
+  scoreValue: 75
+  gManager: {fileID: 514828720}
   deathClip: {fileID: 8300000, guid: 2a47e76af8274614bbf730eac699b9a6, type: 3}
   aSource: {fileID: 770914320}
 --- !u!50 &433161623
@@ -1508,7 +1356,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 490689529}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.9580001, y: -4.9079986, z: 0.20283858}
+  m_LocalPosition: {x: -0.04, y: -2.81, z: 0.20283858}
   m_LocalScale: {x: 0.58343, y: 0.58343, z: 0.58343}
   m_Children: []
   m_Father: {fileID: 1463112894}
@@ -1574,8 +1422,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemy: {fileID: 0}
-  scoreValue: 0
-  gManager: {fileID: 0}
+  scoreValue: 25
+  gManager: {fileID: 514828720}
   deathClip: {fileID: 8300000, guid: 2a47e76af8274614bbf730eac699b9a6, type: 3}
   aSource: {fileID: 770914320}
 --- !u!1 &496357062
@@ -1657,7 +1505,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 496357062}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.76, y: -3.67, z: 0.20283858}
+  m_LocalPosition: {x: -0.7, y: -2.11, z: 0.20283858}
   m_LocalScale: {x: 0.50936, y: 0.50936, z: 0.50936}
   m_Children: []
   m_Father: {fileID: 1463112894}
@@ -1723,8 +1571,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemy: {fileID: 0}
-  scoreValue: 0
-  gManager: {fileID: 0}
+  scoreValue: 50
+  gManager: {fileID: 514828720}
   deathClip: {fileID: 8300000, guid: 2a47e76af8274614bbf730eac699b9a6, type: 3}
   aSource: {fileID: 770914320}
 --- !u!1 &514828717
@@ -1765,7 +1613,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3df50e4fee646544683c5c7ad9503778, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scoreText: {fileID: 0}
+  scoreText: {fileID: 990488182}
 --- !u!224 &514828721
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1813,7 +1661,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 556709708}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 4.9207, y: -0.37991, z: 0.20283858}
+  m_LocalPosition: {x: 1.143, y: -0.39, z: 0.20283858}
   m_LocalScale: {x: 0.49498376, y: 0.49498376, z: 0.49498376}
   m_Children: []
   m_Father: {fileID: 1463112894}
@@ -1909,7 +1757,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemy: {fileID: 0}
-  scoreValue: 0
+  scoreValue: 125
   gManager: {fileID: 514828720}
   deathClip: {fileID: 8300000, guid: 2a47e76af8274614bbf730eac699b9a6, type: 3}
   aSource: {fileID: 770914320}
@@ -2013,7 +1861,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 588938327}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.982, y: -1.3806999, z: 0.20283858}
+  m_LocalPosition: {x: -0.08, y: -1.01, z: 0.20283858}
   m_LocalScale: {x: 0.47712, y: 0.47712, z: 0.47712}
   m_Children: []
   m_Father: {fileID: 1463112894}
@@ -2079,8 +1927,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemy: {fileID: 0}
-  scoreValue: 0
-  gManager: {fileID: 0}
+  scoreValue: 100
+  gManager: {fileID: 514828720}
   deathClip: {fileID: 8300000, guid: 2a47e76af8274614bbf730eac699b9a6, type: 3}
   aSource: {fileID: 770914320}
 --- !u!1 &606517304
@@ -2111,7 +1959,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 606517304}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -3.79, y: -0.37991, z: 0.20283858}
+  m_LocalPosition: {x: -2.57, y: -0.37991, z: 0.20283858}
   m_LocalScale: {x: 0.49498376, y: 0.49498376, z: 0.49498376}
   m_Children: []
   m_Father: {fileID: 1463112894}
@@ -2181,7 +2029,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemy: {fileID: 0}
-  scoreValue: 0
+  scoreValue: 125
   gManager: {fileID: 514828720}
   deathClip: {fileID: 8300000, guid: 2a47e76af8274614bbf730eac699b9a6, type: 3}
   aSource: {fileID: 770914320}
@@ -2311,7 +2159,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 607654294}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -5.36, y: -0.37991, z: 0.20283858}
+  m_LocalPosition: {x: -3.26, y: -0.37991, z: 0.20283858}
   m_LocalScale: {x: 0.49498376, y: 0.49498376, z: 0.49498376}
   m_Children: []
   m_Father: {fileID: 1463112894}
@@ -2330,7 +2178,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemy: {fileID: 0}
-  scoreValue: 0
+  scoreValue: 125
   gManager: {fileID: 514828720}
   deathClip: {fileID: 8300000, guid: 2a47e76af8274614bbf730eac699b9a6, type: 3}
   aSource: {fileID: 770914320}
@@ -2460,7 +2308,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 627017016}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 3.391, y: -2.4689999, z: 0.20283858}
+  m_LocalPosition: {x: 0.55, y: -1.52, z: 0.20283858}
   m_LocalScale: {x: 0.5411952, y: 0.5411952, z: 0.5411952}
   m_Children: []
   m_Father: {fileID: 1463112894}
@@ -2479,8 +2327,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemy: {fileID: 0}
-  scoreValue: 0
-  gManager: {fileID: 0}
+  scoreValue: 75
+  gManager: {fileID: 514828720}
   deathClip: {fileID: 8300000, guid: 2a47e76af8274614bbf730eac699b9a6, type: 3}
   aSource: {fileID: 770914320}
 --- !u!50 &627017020
@@ -2609,7 +2457,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 634339321}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -2.156, y: -4.9079986, z: 0.20283858}
+  m_LocalPosition: {x: -1.93, y: -2.79, z: 0.20283858}
   m_LocalScale: {x: 0.58343, y: 0.58343, z: 0.58343}
   m_Children: []
   m_Father: {fileID: 1463112894}
@@ -2675,8 +2523,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemy: {fileID: 0}
-  scoreValue: 0
-  gManager: {fileID: 0}
+  scoreValue: 25
+  gManager: {fileID: 514828720}
   deathClip: {fileID: 8300000, guid: 2a47e76af8274614bbf730eac699b9a6, type: 3}
   aSource: {fileID: 770914320}
 --- !u!1 &693490876
@@ -2692,7 +2540,7 @@ GameObject:
   - component: {fileID: 693490880}
   - component: {fileID: 693490879}
   - component: {fileID: 693490881}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Enemy01
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -2758,7 +2606,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 693490876}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -5.354398, y: -1.3806999, z: 0.20283858}
+  m_LocalPosition: {x: -3.27, y: -0.97, z: 0.20283858}
   m_LocalScale: {x: 0.47712, y: 0.47712, z: 0.47712}
   m_Children: []
   m_Father: {fileID: 1463112894}
@@ -2824,8 +2672,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemy: {fileID: 0}
-  scoreValue: 0
-  gManager: {fileID: 0}
+  scoreValue: 100
+  gManager: {fileID: 514828720}
   deathClip: {fileID: 8300000, guid: 2a47e76af8274614bbf730eac699b9a6, type: 3}
   aSource: {fileID: 770914320}
 --- !u!1 &756485766
@@ -2907,7 +2755,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 756485766}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.75200003, y: -1.3806999, z: 0.20283858}
+  m_LocalPosition: {x: -0.71, y: -1, z: 0.20283858}
   m_LocalScale: {x: 0.47712, y: 0.47712, z: 0.47712}
   m_Children: []
   m_Father: {fileID: 1463112894}
@@ -2973,8 +2821,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemy: {fileID: 0}
-  scoreValue: 0
-  gManager: {fileID: 0}
+  scoreValue: 100
+  gManager: {fileID: 514828720}
   deathClip: {fileID: 8300000, guid: 2a47e76af8274614bbf730eac699b9a6, type: 3}
   aSource: {fileID: 770914320}
 --- !u!1 &770914315
@@ -3010,9 +2858,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d28d48b34c3e12b4f9730f2f368d1a54, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 2
+  speed: 3.5
   playerBullet: {fileID: 4479077325978468696, guid: 151840509802beb48a04d0f49f3199b6,
     type: 3}
+  GameManager: {fileID: 0}
   aSource: {fileID: 770914320}
   shootClip: {fileID: 8300000, guid: 1d8fc22e481b35645ba16485274f05e5, type: 3}
   playerDeathSound: {fileID: 8300000, guid: 296dce0e1b2b98146b3eee3666066eed, type: 3}
@@ -3119,7 +2968,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 1d8fc22e481b35645ba16485274f05e5, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 0.324
+  m_Volume: 0.204
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -3215,7 +3064,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 296dce0e1b2b98146b3eee3666066eed, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.378
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -3299,105 +3148,6 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!1 &778260429
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 778260433}
-  - component: {fileID: 778260432}
-  - component: {fileID: 778260431}
-  - component: {fileID: 778260430}
-  m_Layer: 5
-  m_Name: Canvas
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &778260430
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 778260429}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dc42784cf147c0c48a680349fa168899, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_IgnoreReversedGraphics: 1
-  m_BlockingObjects: 0
-  m_BlockingMask:
-    serializedVersion: 2
-    m_Bits: 4294967295
---- !u!114 &778260431
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 778260429}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
-  m_ReferencePixelsPerUnit: 100
-  m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 800, y: 600}
-  m_ScreenMatchMode: 0
-  m_MatchWidthOrHeight: 0
-  m_PhysicalUnit: 3
-  m_FallbackScreenDPI: 96
-  m_DefaultSpriteDPI: 96
-  m_DynamicPixelsPerUnit: 1
-  m_PresetInfoIsWorld: 0
---- !u!223 &778260432
-Canvas:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 778260429}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_RenderMode: 0
-  m_Camera: {fileID: 0}
-  m_PlaneDistance: 100
-  m_PixelPerfect: 0
-  m_ReceivesEvents: 1
-  m_OverrideSorting: 0
-  m_OverridePixelPerfect: 0
-  m_SortingBucketNormalizedSize: 0
-  m_AdditionalShaderChannelsFlag: 25
-  m_SortingLayerID: 0
-  m_SortingOrder: 0
-  m_TargetDisplay: 0
---- !u!224 &778260433
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 778260429}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0, y: 0, z: 0}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 6
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
-  m_Pivot: {x: 0, y: 0}
 --- !u!1 &841706857
 GameObject:
   m_ObjectHideFlags: 0
@@ -3477,7 +3227,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 841706857}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 4.921, y: -2.4689999, z: 0.20283858}
+  m_LocalPosition: {x: 1.16, y: -1.53, z: 0.20283858}
   m_LocalScale: {x: 0.5411952, y: 0.5411952, z: 0.5411952}
   m_Children: []
   m_Father: {fileID: 1463112894}
@@ -3496,8 +3246,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemy: {fileID: 0}
-  scoreValue: 0
-  gManager: {fileID: 0}
+  scoreValue: 75
+  gManager: {fileID: 514828720}
   deathClip: {fileID: 8300000, guid: 2a47e76af8274614bbf730eac699b9a6, type: 3}
   aSource: {fileID: 770914320}
 --- !u!50 &841706861
@@ -3626,7 +3376,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 964261417}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -3.75, y: -3.67, z: 0.20283858}
+  m_LocalPosition: {x: -2.6, y: -2.1, z: 0.20283858}
   m_LocalScale: {x: 0.50936, y: 0.50936, z: 0.50936}
   m_Children: []
   m_Father: {fileID: 1463112894}
@@ -3692,8 +3442,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemy: {fileID: 0}
-  scoreValue: 0
-  gManager: {fileID: 0}
+  scoreValue: 50
+  gManager: {fileID: 514828720}
   deathClip: {fileID: 8300000, guid: 2a47e76af8274614bbf730eac699b9a6, type: 3}
   aSource: {fileID: 770914320}
 --- !u!1 &967265098
@@ -3775,7 +3525,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 967265098}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -2.139, y: -2.4689999, z: 0.20283858}
+  m_LocalPosition: {x: -1.95, y: -1.5, z: 0.20283858}
   m_LocalScale: {x: 0.5411952, y: 0.5411952, z: 0.5411952}
   m_Children: []
   m_Father: {fileID: 1463112894}
@@ -3794,8 +3544,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemy: {fileID: 0}
-  scoreValue: 0
-  gManager: {fileID: 0}
+  scoreValue: 75
+  gManager: {fileID: 514828720}
   deathClip: {fileID: 8300000, guid: 2a47e76af8274614bbf730eac699b9a6, type: 3}
   aSource: {fileID: 770914320}
 --- !u!50 &967265102
@@ -3845,6 +3595,177 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.01, y: 0.76}
   m_EdgeRadius: 0
+--- !u!1 &990488181
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 990488184}
+  - component: {fileID: 990488183}
+  - component: {fileID: 990488182}
+  m_Layer: 0
+  m_Name: scoreText
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &990488182
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 990488181}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9541d86e2fd84c1d9990edf0852d74ab, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: 0000
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 548e4b407ea14e644a48bb28050ec1e0, type: 2}
+  m_sharedMaterial: {fileID: 6252637327047729320, guid: 548e4b407ea14e644a48bb28050ec1e0,
+    type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 3
+  m_fontSizeBase: 3
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 0
+  m_HorizontalAlignment: 1
+  m_VerticalAlignment: 256
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_enableWordWrapping: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 1
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 0
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 7.7136106, w: 4.323676}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_renderer: {fileID: 990488183}
+  m_maskType: 0
+  _SortingLayer: 0
+  _SortingLayerID: 0
+  _SortingOrder: 0
+--- !u!23 &990488183
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 990488181}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 6252637327047729320, guid: 548e4b407ea14e644a48bb28050ec1e0, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!224 &990488184
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 990488181}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 4.08, y: 2.11}
+  m_SizeDelta: {x: 20, y: 5}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &996447137
 GameObject:
   m_ObjectHideFlags: 0
@@ -3924,7 +3845,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 996447137}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.763, y: -2.4689999, z: 0.20283858}
+  m_LocalPosition: {x: -0.68, y: -1.51, z: 0.20283858}
   m_LocalScale: {x: 0.5411952, y: 0.5411952, z: 0.5411952}
   m_Children: []
   m_Father: {fileID: 1463112894}
@@ -3943,8 +3864,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemy: {fileID: 0}
-  scoreValue: 0
-  gManager: {fileID: 0}
+  scoreValue: 75
+  gManager: {fileID: 514828720}
   deathClip: {fileID: 8300000, guid: 2a47e76af8274614bbf730eac699b9a6, type: 3}
   aSource: {fileID: 770914320}
 --- !u!50 &996447141
@@ -4073,7 +3994,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1060152189}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 4.903, y: -4.9079986, z: 0.20283858}
+  m_LocalPosition: {x: 1.17, y: -2.81, z: 0.20283858}
   m_LocalScale: {x: 0.58343, y: 0.58343, z: 0.58343}
   m_Children: []
   m_Father: {fileID: 1463112894}
@@ -4139,8 +4060,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemy: {fileID: 0}
-  scoreValue: 0
-  gManager: {fileID: 0}
+  scoreValue: 25
+  gManager: {fileID: 514828720}
   deathClip: {fileID: 8300000, guid: 2a47e76af8274614bbf730eac699b9a6, type: 3}
   aSource: {fileID: 770914320}
 --- !u!1 &1060829580
@@ -4171,7 +4092,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1060829580}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 3.3700001, y: -0.39009, z: 0.20283858}
+  m_LocalPosition: {x: 0.543, y: -0.39009, z: 0.20283858}
   m_LocalScale: {x: 0.49498376, y: 0.49498376, z: 0.49498376}
   m_Children: []
   m_Father: {fileID: 1463112894}
@@ -4267,7 +4188,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemy: {fileID: 0}
-  scoreValue: 0
+  scoreValue: 125
   gManager: {fileID: 514828720}
   deathClip: {fileID: 8300000, guid: 2a47e76af8274614bbf730eac699b9a6, type: 3}
   aSource: {fileID: 770914320}
@@ -4371,7 +4292,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1066100379}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -2.142, y: -1.3806999, z: 0.20283858}
+  m_LocalPosition: {x: -1.949, y: -0.98, z: 0.20283858}
   m_LocalScale: {x: 0.47712, y: 0.47712, z: 0.47712}
   m_Children: []
   m_Father: {fileID: 1463112894}
@@ -4437,8 +4358,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemy: {fileID: 0}
-  scoreValue: 0
-  gManager: {fileID: 0}
+  scoreValue: 100
+  gManager: {fileID: 514828720}
   deathClip: {fileID: 8300000, guid: 2a47e76af8274614bbf730eac699b9a6, type: 3}
   aSource: {fileID: 770914320}
 --- !u!1 &1089579586
@@ -4469,7 +4390,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1089579586}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 2.01, y: -0.37991, z: 0.20283858}
+  m_LocalPosition: {x: -0.08, y: -0.37991, z: 0.20283858}
   m_LocalScale: {x: 0.49498376, y: 0.49498376, z: 0.49498376}
   m_Children: []
   m_Father: {fileID: 1463112894}
@@ -4565,7 +4486,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemy: {fileID: 0}
-  scoreValue: 0
+  scoreValue: 125
   gManager: {fileID: 514828720}
   deathClip: {fileID: 8300000, guid: 2a47e76af8274614bbf730eac699b9a6, type: 3}
   aSource: {fileID: 770914320}
@@ -4669,7 +4590,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1110406046}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.764, y: -4.9079986, z: 0.20283858}
+  m_LocalPosition: {x: -0.669, y: -2.796, z: 0.20283858}
   m_LocalScale: {x: 0.58343, y: 0.58343, z: 0.58343}
   m_Children: []
   m_Father: {fileID: 1463112894}
@@ -4735,8 +4656,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemy: {fileID: 0}
-  scoreValue: 0
-  gManager: {fileID: 0}
+  scoreValue: 25
+  gManager: {fileID: 514828720}
   deathClip: {fileID: 8300000, guid: 2a47e76af8274614bbf730eac699b9a6, type: 3}
   aSource: {fileID: 770914320}
 --- !u!1 &1210691647
@@ -4818,7 +4739,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1210691647}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -3.7789998, y: -2.4689999, z: 0.20283858}
+  m_LocalPosition: {x: -2.58, y: -1.5, z: 0.20283858}
   m_LocalScale: {x: 0.5411952, y: 0.5411952, z: 0.5411952}
   m_Children: []
   m_Father: {fileID: 1463112894}
@@ -4837,8 +4758,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemy: {fileID: 0}
-  scoreValue: 0
-  gManager: {fileID: 0}
+  scoreValue: 75
+  gManager: {fileID: 514828720}
   deathClip: {fileID: 8300000, guid: 2a47e76af8274614bbf730eac699b9a6, type: 3}
   aSource: {fileID: 770914320}
 --- !u!50 &1210691651
@@ -4967,7 +4888,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1237434104}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 3.395, y: -4.9079986, z: 0.20283858}
+  m_LocalPosition: {x: 0.56, y: -2.82, z: 0.20283858}
   m_LocalScale: {x: 0.58343, y: 0.58343, z: 0.58343}
   m_Children: []
   m_Father: {fileID: 1463112894}
@@ -5033,8 +4954,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemy: {fileID: 0}
-  scoreValue: 0
-  gManager: {fileID: 0}
+  scoreValue: 25
+  gManager: {fileID: 514828720}
   deathClip: {fileID: 8300000, guid: 2a47e76af8274614bbf730eac699b9a6, type: 3}
   aSource: {fileID: 770914320}
 --- !u!1 &1308789074
@@ -5116,7 +5037,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1308789074}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 4.9240003, y: -1.3806999, z: 0.20283858}
+  m_LocalPosition: {x: 1.12, y: -1.02, z: 0.20283858}
   m_LocalScale: {x: 0.47712, y: 0.47712, z: 0.47712}
   m_Children: []
   m_Father: {fileID: 1463112894}
@@ -5182,8 +5103,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemy: {fileID: 0}
-  scoreValue: 0
-  gManager: {fileID: 0}
+  scoreValue: 100
+  gManager: {fileID: 514828720}
   deathClip: {fileID: 8300000, guid: 2a47e76af8274614bbf730eac699b9a6, type: 3}
   aSource: {fileID: 770914320}
 --- !u!1 &1376656921
@@ -5324,7 +5245,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1412073213}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.76, y: -0.39009, z: 0.20283858}
+  m_LocalPosition: {x: -0.704, y: -0.384, z: 0.20283858}
   m_LocalScale: {x: 0.49498376, y: 0.49498376, z: 0.49498376}
   m_Children: []
   m_Father: {fileID: 1463112894}
@@ -5420,7 +5341,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemy: {fileID: 0}
-  scoreValue: 0
+  scoreValue: 125
   gManager: {fileID: 514828720}
   deathClip: {fileID: 8300000, guid: 2a47e76af8274614bbf730eac699b9a6, type: 3}
   aSource: {fileID: 770914320}
@@ -5808,7 +5729,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1536568110}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.59, y: -3.67, z: 0.20283858}
+  m_LocalPosition: {x: -1.31, y: -2.08, z: 0.20283858}
   m_LocalScale: {x: 0.50936, y: 0.50936, z: 0.50936}
   m_Children: []
   m_Father: {fileID: 1463112894}
@@ -5874,8 +5795,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemy: {fileID: 0}
-  scoreValue: 0
-  gManager: {fileID: 0}
+  scoreValue: 50
+  gManager: {fileID: 514828720}
   deathClip: {fileID: 8300000, guid: 2a47e76af8274614bbf730eac699b9a6, type: 3}
   aSource: {fileID: 770914320}
 --- !u!1 &1597970587
@@ -5957,7 +5878,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1597970587}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 4.9, y: -3.67, z: 0.20283858}
+  m_LocalPosition: {x: 1.16, y: -2.09, z: 0.20283858}
   m_LocalScale: {x: 0.50936, y: 0.50936, z: 0.50936}
   m_Children: []
   m_Father: {fileID: 1463112894}
@@ -6023,8 +5944,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemy: {fileID: 0}
-  scoreValue: 0
-  gManager: {fileID: 0}
+  scoreValue: 50
+  gManager: {fileID: 514828720}
   deathClip: {fileID: 8300000, guid: 2a47e76af8274614bbf730eac699b9a6, type: 3}
   aSource: {fileID: 770914320}
 --- !u!1 &1678717087
@@ -6106,7 +6027,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1678717087}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.9599999, y: -3.67, z: 0.20283858}
+  m_LocalPosition: {x: -0.05, y: -2.12, z: 0.20283858}
   m_LocalScale: {x: 0.50936, y: 0.50936, z: 0.50936}
   m_Children: []
   m_Father: {fileID: 1463112894}
@@ -6172,8 +6093,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemy: {fileID: 0}
-  scoreValue: 0
-  gManager: {fileID: 0}
+  scoreValue: 50
+  gManager: {fileID: 514828720}
   deathClip: {fileID: 8300000, guid: 2a47e76af8274614bbf730eac699b9a6, type: 3}
   aSource: {fileID: 770914320}
 --- !u!1 &1691652827
@@ -6255,7 +6176,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1691652827}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -5.34, y: -2.4689999, z: 0.20283858}
+  m_LocalPosition: {x: -3.23, y: -1.51, z: 0.20283858}
   m_LocalScale: {x: 0.5411952, y: 0.5411952, z: 0.5411952}
   m_Children: []
   m_Father: {fileID: 1463112894}
@@ -6274,8 +6195,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemy: {fileID: 0}
-  scoreValue: 0
-  gManager: {fileID: 0}
+  scoreValue: 75
+  gManager: {fileID: 514828720}
   deathClip: {fileID: 8300000, guid: 2a47e76af8274614bbf730eac699b9a6, type: 3}
   aSource: {fileID: 770914320}
 --- !u!50 &1691652831
@@ -6404,7 +6325,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1706977014}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.574, y: -1.3806999, z: 0.20283858}
+  m_LocalPosition: {x: -1.326, y: -0.993, z: 0.20283858}
   m_LocalScale: {x: 0.47712, y: 0.47712, z: 0.47712}
   m_Children: []
   m_Father: {fileID: 1463112894}
@@ -6470,8 +6391,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemy: {fileID: 0}
-  scoreValue: 0
-  gManager: {fileID: 0}
+  scoreValue: 100
+  gManager: {fileID: 514828720}
   deathClip: {fileID: 8300000, guid: 2a47e76af8274614bbf730eac699b9a6, type: 3}
   aSource: {fileID: 770914320}
 --- !u!1 &1793224621
@@ -6553,7 +6474,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1793224621}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 3.39, y: -3.67, z: 0.20283858}
+  m_LocalPosition: {x: 0.54, y: -2.11, z: 0.20283858}
   m_LocalScale: {x: 0.50936, y: 0.50936, z: 0.50936}
   m_Children: []
   m_Father: {fileID: 1463112894}
@@ -6619,8 +6540,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemy: {fileID: 0}
-  scoreValue: 0
-  gManager: {fileID: 0}
+  scoreValue: 50
+  gManager: {fileID: 514828720}
   deathClip: {fileID: 8300000, guid: 2a47e76af8274614bbf730eac699b9a6, type: 3}
   aSource: {fileID: 770914320}
 --- !u!1 &1876376492
@@ -6768,7 +6689,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1888297371}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 3.3700001, y: -1.3806999, z: 0.20283858}
+  m_LocalPosition: {x: 0.533, y: -1.024, z: 0.20283858}
   m_LocalScale: {x: 0.47712, y: 0.47712, z: 0.47712}
   m_Children: []
   m_Father: {fileID: 1463112894}
@@ -6834,8 +6755,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemy: {fileID: 0}
-  scoreValue: 0
-  gManager: {fileID: 0}
+  scoreValue: 100
+  gManager: {fileID: 514828720}
   deathClip: {fileID: 8300000, guid: 2a47e76af8274614bbf730eac699b9a6, type: 3}
   aSource: {fileID: 770914320}
 --- !u!1 &1911502680
@@ -7027,7 +6948,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1932079865}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.577, y: -4.9079986, z: 0.20283858}
+  m_LocalPosition: {x: -1.306, y: -2.788, z: 0.20283858}
   m_LocalScale: {x: 0.58343, y: 0.58343, z: 0.58343}
   m_Children: []
   m_Father: {fileID: 1463112894}
@@ -7093,8 +7014,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemy: {fileID: 0}
-  scoreValue: 0
-  gManager: {fileID: 0}
+  scoreValue: 25
+  gManager: {fileID: 514828720}
   deathClip: {fileID: 8300000, guid: 2a47e76af8274614bbf730eac699b9a6, type: 3}
   aSource: {fileID: 770914320}
 --- !u!1 &2073688797
@@ -7176,7 +7097,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2073688797}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -3.741, y: -4.9079986, z: 0.20283858}
+  m_LocalPosition: {x: -2.579, y: -2.787, z: 0.20283858}
   m_LocalScale: {x: 0.58343, y: 0.58343, z: 0.58343}
   m_Children: []
   m_Father: {fileID: 1463112894}
@@ -7242,8 +7163,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemy: {fileID: 0}
-  scoreValue: 0
-  gManager: {fileID: 0}
+  scoreValue: 25
+  gManager: {fileID: 514828720}
   deathClip: {fileID: 8300000, guid: 2a47e76af8274614bbf730eac699b9a6, type: 3}
   aSource: {fileID: 770914320}
 --- !u!1 &2100657527
@@ -7359,7 +7280,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2108491916}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.9629999, y: -2.4689999, z: 0.20283858}
+  m_LocalPosition: {x: -0.07, y: -1.51, z: 0.20283858}
   m_LocalScale: {x: 0.5411952, y: 0.5411952, z: 0.5411952}
   m_Children: []
   m_Father: {fileID: 1463112894}
@@ -7378,8 +7299,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemy: {fileID: 0}
-  scoreValue: 0
-  gManager: {fileID: 0}
+  scoreValue: 75
+  gManager: {fileID: 514828720}
   deathClip: {fileID: 8300000, guid: 2a47e76af8274614bbf730eac699b9a6, type: 3}
   aSource: {fileID: 770914320}
 --- !u!50 &2108491920

@@ -25,8 +25,17 @@ public class GameManager : MonoBehaviour
         score += value;
     }
 
-    public void RestartGame()
+    public void RestartGameOnPlayerDeath()
     {
-        SceneManager.LoadScene("MainScene");
+        {
+            SceneManager.LoadScene("MainScene");
+        }
+    }
+
+    public void RestartGameAfterEndOfWave()
+    {
+        {
+            SceneManager.LoadScene("MainScene");
+        }
     }
 }

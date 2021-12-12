@@ -33,7 +33,7 @@ public class EnemyScript : MonoBehaviour
 
         if (collision.gameObject.tag == "Boundary" || collision.gameObject.tag == "Player")
         {
-            gManager.RestartGame();
+            gManager.RestartGameOnPlayerDeath();
         }
     }
 }
