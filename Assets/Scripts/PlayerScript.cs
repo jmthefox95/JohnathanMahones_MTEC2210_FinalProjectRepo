@@ -11,6 +11,7 @@ public class PlayerScript : MonoBehaviour
     public GameObject GameManager;
     
     private Vector2 startPos;
+    private float shotCoolDown = 0.5f;
 
     public AudioSource aSource;
     public AudioClip shootClip;
@@ -28,6 +29,7 @@ public class PlayerScript : MonoBehaviour
         float xMove = Input.GetAxis("Horizontal") * speed * Time.deltaTime;
 
         transform.Translate(xMove, 0, 0);
+
 
         if (Input.GetKeyDown(KeyCode.Space))
         {
