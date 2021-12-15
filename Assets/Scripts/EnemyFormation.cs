@@ -72,6 +72,7 @@ public class EnemyFormation : MonoBehaviour
         {
             Instantiate(enemyArray[index], enemyPos, Quaternion.identity);
         }
+    }
 
     
     public void EnemyShoot()
