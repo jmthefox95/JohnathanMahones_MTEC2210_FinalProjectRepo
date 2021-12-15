@@ -59,6 +59,20 @@ public class EnemyFormation : MonoBehaviour
         }
     }
 
+    public void SpawnNewWave()
+    {
+        int numberOfEnemies = GetComponentsInChildren<EnemyScript>().Length;
+        int index = Random.Range(0, numberOfEnemies);
+        var enemyArray = GetComponentsInChildren<EnemyScript>();
+
+        
+        Vector3 enemyPos = enemyArray[index].transform.position;
+
+        if (numberOfEnemies <= 0)
+        {
+            Instantiate(enemyArray[index], enemyPos, Quaternion.identity);
+        }
+
     
     public void EnemyShoot()
     {
