@@ -33,10 +33,15 @@ public class BulletScript : MonoBehaviour
     {
         if (isPlayerBullet)
         {
-            speed = speed;
+            speed = GetSpeed();
         }
 
         transform.Translate(0, speed * Time.deltaTime * mod, 0);
+    }
+
+    private float GetSpeed()
+    {
+        return speed;
     }
 
     public void OnCollisionEnter2D(Collision2D collision)
